@@ -37,6 +37,10 @@
         </section>
 
         <aside id="sidebar">
+          {% for name in site.packages %}
+            <a href="{{ site.github.owner_url }}/{{ name }}" class="button">{{ name }}</a>
+          {% endfor %}
+          <hr>
            <a href="/" class="button">Home</a>
            <a href="/about.html" class="button">About</a>
           

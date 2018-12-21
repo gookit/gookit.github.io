@@ -1,2 +1,19 @@
 title: Gookit
 theme: jekyll-theme-architect
+description: Some libs for the Go(router, DI, log, config, cache, event, validate, filter, CLI, i18n, respond-data, view-render)
+packages:
+ - gcli
+ - router
+ - config
+ - validate
+ - event
+ - filter
+ - i18n
+ - cache
+ - di
+ - respond
+ - view
+
+# packages info
+pgkInfo:
+  router: description

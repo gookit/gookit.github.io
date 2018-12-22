@@ -5,7 +5,10 @@ key:
 ---
 
 <div class="layout--articles">
-{% for item in data.projects[page.lang] %}
-
-{% endfor %}
+{%- for item in data.projects[page.lang] -%}
+<h2>Package {{ item.title }}</h2>
+<p>
+    {{ item.desc }}
+</p>
+{%- endfor -%}
 </div>

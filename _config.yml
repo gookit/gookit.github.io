@@ -220,6 +220,7 @@ defaults:
       license: false
       aside:
         toc: true
+      lang: en
       show_edit_on_github: true
       show_date: false
       # lightbox: true

@@ -89,7 +89,7 @@ docs-en:
         url:    /docs/zh/all-projects
 
 docs-zh:
-  - title:      Gookit
+  - title:      文档概述
     children:
       - title:  Gookit 所有项目
         url:    /docs/zh/all-projects

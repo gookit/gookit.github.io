@@ -5,11 +5,13 @@ key:
 ---
 
 <div class="layout--articles">
-{%- for item in site.data.projects[page.lang] -%}
-<h2><small>Package:</small> {{ item.title }}</h2>
-<p>
-    {{ item.desc }}
-</p>
-<div><a class="button" href="/docs/{{page.lang}}/{{ item.name }}">See Document</a></div>
-{%- endfor -%}
+    {%- for item in site.data.projects[page.lang] -%}
+    <h2><small>Package:</small> {{ item.title }}</h2>
+    <p>
+        <code>gookit/{{ item.name }}</code> {{ item.desc }}
+    </p>
+    <div>
+        <a class="button" href="/docs/{{page.lang}}/{{ item.name }}">See Document</a>
+    </div>
+    {%- endfor -%}
 </div>

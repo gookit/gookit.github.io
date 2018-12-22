@@ -1,7 +1,7 @@
 header:
   - title:      Home
     url:        /
-  - title:      Projects
+  - title:      Docs
     url:        /docs/zh/all-projects
   - title:      About
     url:        /about.html

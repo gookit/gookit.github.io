@@ -99,12 +99,12 @@ docs-zh:
         url:    /docs/zh/gcli
       - title:  从 1.x 升级到 2.x
         url:    /docs/zh/update-from-1-to-2
-  - title:      定制
+  - title:      数据验证 - validate
     children:
-      - title:  配置
-        url:    /docs/zh/configuration
-      - title:  导航栏
-        url:    /docs/zh/navigation
+      - title:  validate 概览
+        url:    /docs/zh/validate
+      - title:  内置的过滤与验证器
+        url:    /docs/zh/validate-builtin-filters-validators
       - title:  布局
         url:    /docs/zh/layouts
       - title:  Logo 和 Favicon

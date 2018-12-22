@@ -5,7 +5,7 @@ key:
 ---
 
 <div class="layout--articles">
-{%- for item in data.projects[page.lang] -%}
+{%- for item in site.data.projects[page.lang] -%}
 <h2>Package {{ item.title }}</h2>
 <p>
     {{ item.desc }}

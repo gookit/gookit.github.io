@@ -9,4 +9,4 @@ key: page-about
 ---
 
 
-Site theme by: [kitian616/jekyll-TeXt-theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme)
+- Site theme by: [kitian616/jekyll-TeXt-theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme)

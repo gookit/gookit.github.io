@@ -17,3 +17,7 @@ Some useful tool library at Golang
 - respond data
 - view render
 
+## Thanks
+
+- jekyll theme [kitian616/jekyll-TeXt-theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme)
+

@@ -29,8 +29,10 @@ header-zh:
     url:        https://github.com/gookit
 
 docs-en:
-  - title:      Projects Overview
-    url:        /docs/en/all-projects
+  - title:      Docs Overview
+    children:
+      - title:  Gookit Projects
+        url:    /docs/en/all-projects
   - title:      Command Line - gcli
     children:
       - title:  Overview
@@ -87,8 +89,10 @@ docs-en:
         url:    /docs/zh/all-projects
 
 docs-zh:
-  - title:      所有项目
-    url:        /docs/zh/all-projects
+  - title:      Gookit
+    children:
+      - title:  Gookit 所有项目
+        url:    /docs/zh/all-projects
   - title:      命令行应用/工具 - gcli
     children:
       - title:  gcli 概览

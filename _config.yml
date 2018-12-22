@@ -25,7 +25,8 @@ description: > # this means to ignore newlines until "Language & timezone"
   Some useful tool library at Golang
 
 
-githubUrl: https://github.comc
+githubUrl: https://github.com
+rawghUrl: https://raw.githubusercontent.com/gookit/gcli/master
 
 ## => Language and Timezone
 ##############################
@@ -216,7 +217,7 @@ defaults:
       layout: article
       sidebar:
         nav: docs-en
-      license: true
+      license: false
       aside:
         toc: true
       show_edit_on_github: true
@@ -228,7 +229,7 @@ defaults:
       layout: article
       sidebar:
         nav: docs-zh
-      license: true
+      license: false
       aside:
         toc: true
       lang: zh

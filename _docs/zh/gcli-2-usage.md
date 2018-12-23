@@ -41,13 +41,13 @@ Version: 1.0.3
 
 you can see:
 
-![run_example_cmd]({{ site.githubUrl }}/_examples/images/run_example_cmd.jpg)
+![run_example_cmd]({{ site.rawghUrl }}/_examples/images/run_example_cmd.jpg)
 
 ### 显示一个命令的帮助
 
 > by `./cliapp {command} -h` or `./cliapp {command} --help` or `./cliapp help {command}`
 
-![cmd-help]({{ site.githubUrl }}/_examples/images/cmd-help.jpg)
+![cmd-help]({{ site.rawghUrl }}/_examples/images/cmd-help.jpg)
 
 ### 生成命令补全脚本
 
@@ -78,11 +78,11 @@ OK, auto-complete file generate successful
 
 生成的shell script 文件请参看： 
 
-- bash 环境 [auto-completion.bash]({{ site.githubUrl }}/resource/auto-completion.bash) 
-- zsh 环境 [auto-completion.zsh]({{ site.githubUrl }}/resource/auto-completion.zsh)
+- bash 环境 [auto-completion.bash]({{ site.githubUrl }}/gookit/gcli/blob/master/resource/auto-completion.bash) 
+- zsh 环境 [auto-completion.zsh]({{ site.githubUrl }}/gookit/gcli/blob/master/resource/auto-completion.zsh)
 
 预览效果: 
 
-![auto-complete-tips]({{ site.githubUrl }}/_examples/images/auto-complete-tips.jpg)
+![auto-complete-tips]({{ site.rawghUrl }}/_examples/images/auto-complete-tips.jpg)
 
 

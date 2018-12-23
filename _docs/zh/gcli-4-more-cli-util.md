@@ -51,7 +51,7 @@ func main()  {
 }
 ```
 
-> 更多示例和使用请看 [progress_demo.go](_examples/cmd/progress_demo.go)
+> 更多示例和使用请看 [progress_demo.go]({{ site.githubUrl }}/_examples/cmd/progress_demo.go)
 
 run demos:
 
@@ -97,53 +97,3 @@ func main() {
 
 > 更多示例和使用请看 [interact_demo.go]({{ site.githubUrl }}/_examples/cmd/interact_demo.go)
 
-## 使用颜色输出
-
-### 颜色输出展示
-
-![colored-demo]({{ site.rawghUrl }}/_examples/images/color-demo.jpg)
-
-### 如何使用
-
-```go
-package main
-
-import (
-    "github.com/gookit/color"
-)
-
-func main() {
-    // simple usage
-    color.Cyan.Printf("Simple to use %s\n", "color")
-
-    // internal theme/style:
-    color.Info.Tips("message")
-    color.Info.Prompt("message")
-    color.Info.Println("message")
-    color.Warn.Println("message")
-    color.Error.Println("message")
-    
-    // custom color
-    color.New(color.FgWhite, color.BgBlack).Println("custom color style")
-
-    // can also:
-    color.Style{color.FgCyan, color.OpBold}.Println("custom color style")
-    
-    // use defined color tag
-    color.Print("use color tag: <suc>he</><comment>llo</>, <cyan>wel</><red>come</>\n")
-
-    // use custom color tag
-    color.Print("custom color tag: <fg=yellow;bg=black;op=underscore;>hello, welcome</>\n")
-
-    // set a style tag
-    color.Tag("info").Println("info style text")
-
-    // prompt message
-    color.Info.Prompt("prompt style message")
-    color.Warn.Prompt("prompt style message")
-
-    // tips message
-    color.Info.Tips("tips style message")
-    color.Warn.Tips("tips style message")
-}
-```

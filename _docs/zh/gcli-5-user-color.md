@@ -6,7 +6,7 @@ key:
 
 ## 颜色输出展示
 
-![colored-demo]({{ site.rawghUrl }}_examples/images/color-demo.jpg)
+![colored-demo]({{ site.rawghUrl }}/_examples/images/color-demo.jpg)
 
 ## 如何使用
 

@@ -114,4 +114,4 @@ go build ./_examples/cliapp.go && ./cliapp example -h
 
 > 漂亮的帮助信息就已经自动生成并展示出来了
 
-![cmd-help]({{ site.githubUrl }}/_examples/images/cmd-help.jpg)
+![cmd-help]({{ site.rawghUrl }}/_examples/images/cmd-help.jpg)

@@ -91,5 +91,5 @@ func main() {
 
 ## License
 
-MIT
+**[MIT]({{ githubUrl }}/gookit/gcli/blob/master/LICENSE)**
 

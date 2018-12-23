@@ -14,9 +14,15 @@ zh:
   - title:  Color
     name:   color
     desc:   CLI 控制台颜色渲染工具库, 简洁的使用API，支持16色，256色，RGB色彩渲染输出，兼容 Windows 环境
-  - title:  Color
-    name:   color
+  - title:  Ini
+    name:   ini
     desc:   Go INI配置读取管理，支持多文件加载，数据覆盖合并, 解析ENV变量, 解析变量引用
+  - title:  I18N
+    name:   i18n
+    desc:   使用INI文件实现的多语言数据管理使用
+  - title:  Event Manager
+    name:   event
+    desc:   Go实现的轻量级的事件管理、调度程序库, 支持设置监听器的优先级, 支持根据事件名称来进行一组事件的监听.
 
 en:
   - title:  Go CLI
@@ -34,6 +40,12 @@ en:
   - title:  Color
     name:   color
     desc:   Terminal color rendering tool library, support 8/16 colors, 256 colors, RGB color rendering output, compatible with Windows.
-  - title:  Color
-    name:   color
+  - title:  Ini
+    name:   ini
     desc:   Go config management, use INI. support multi file load, data override merge. parse ENV variable, parse variable reference.
+  - title:  I18N
+    name:   i18n
+    desc:   Use INI file, simple i18n manager implement.
+  - title:  Event Manager
+    name:   event
+    desc:   Lightweight event manager and dispatcher implements by Go

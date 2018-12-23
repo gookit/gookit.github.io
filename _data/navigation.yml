@@ -8,26 +8,6 @@ header:
   - title:      GitHub
     url:        https://github.com/gookit
 
-header-en:
-  - title:      Home
-    url:        /
-  - title:      Projects
-    url:        /docs/zh/all-projects
-  - title:      About
-    url:        /about.html
-  - title:      GitHub
-    url:        https://github.com/gookit
-
-header-zh:
-  - title:      首页
-    url:        /
-  - title:      Projects
-    url:        /docs/zh/all-projects
-  - title:      About
-    url:        /about.html
-  - title:      GitHub
-    url:        https://github.com/gookit
-
 docs-en:
   - title:      Docs Overview
     children:
@@ -63,26 +43,8 @@ docs-en:
         url:    /docs/en/extensions
       - title:  Markdown Enhancements
         url:    /docs/en/markdown-enhancements
-  - title:      Extra
-    children:
-      - title:  Spacing
-        url:    /docs/en/spacing
-      - title:  Grid
-        url:    /docs/en/grid
-      - title:  Icons
-        url:    /docs/en/icons
-      - title:  Image
-        url:    /docs/en/image
-      - title:  Button
-        url:    /docs/en/button
-      - title:  Item
-        url:    /docs/en/item
-      - title:  Card
-        url:    /docs/en/card
-      - title:  Hero
-        url:    /docs/en/hero
-      - title:  Swiper
-        url:    /docs/en/swiper
+  - title:      INI config manager
+    url:        /docs/en/ini
   - title:      Languages
     children:
       - title:  中文
@@ -117,16 +79,12 @@ docs-zh:
         url:    /docs/zh/logo-and-favicon
       - title:  作者
         url:    /docs/zh/authors
-  - title:      内容
-    children:
-      - title:  撰写博客
-        url:    /docs/zh/writing-posts
-      - title:  附加样式
-        url:    /docs/zh/additional-styles
-      - title:  扩展
-        url:    /docs/zh/extensions
-      - title:  Markdown 增强
-        url:    /docs/zh/markdown-enhancements
+  - title:      应用配置加载与管理
+    url:        /docs/zh/config
+  - title:      事件管理与调度
+    url:        /docs/zh/event
+  - title:      简单配置管理INI
+    url:        /docs/zh/ini
   - title:      其他语言
     children:
       - title:  English

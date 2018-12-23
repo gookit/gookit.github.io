@@ -97,8 +97,14 @@ docs-zh:
     children:
       - title:  gcli 概览
         url:    /docs/zh/gcli
-      - title:  从 1.x 升级到 2.x
-        url:    /docs/zh/update-from-1-to-2
+      - title:  立即开始使用
+        url:    /docs/zh/gcli-usage
+      - title:  编写新的命令
+        url:    /docs/zh/gcli-create-command
+      - title:  更多CLI工具使用
+        url:    /docs/zh/gcli-more-utils
+      - title:  命令行颜色使用
+        url:    /docs/zh/gcli-use-color
   - title:      数据验证 - validate
     children:
       - title:  validate 概览
